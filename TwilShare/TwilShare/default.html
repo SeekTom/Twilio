@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TwilShare</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+
+
+    <!-- TwilShare references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="container">
+<h1 id="headerLBL" class="headerClass">Windows 8 Twilio test SMS app</h1>
+    
+    <div class="mainContent">
+        <input value="Enter Number" class="numberBox" type="text" id="bx_number" />
+       <div class="message"> 
+       
+         
+           <textarea class="messageBox" id="bx_message">Enter Message</textarea>
+       </div>
+      <!--    <div id="messageBox2" contentEditable="true">
+ Enter message
+</div>-->
+        <button id="btnSend">Send</button>
+        
+        <div id="msgResponse"></div>
+        <div id="msgProgrss"></div>
+        <div id="output"></div>
+    </div>
+
+     <div id="errorFlyout" data-win-control="WinJS.UI.Flyout" aria-label="{error message flyout}">
+        <div id="errorContent">Message</div>
+        <button id="confirmButton">Okay</button>
+    </div>
+        
+    </div>
+</body>
+</html>

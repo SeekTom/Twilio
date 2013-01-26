@@ -1,0 +1,9 @@
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bin\Debug\resources.pri
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bin\Debug\AppxManifest.xml
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bin\Debug\TwilShare.build.appxrecipe
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\priconfig.xml
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\layout.resfiles
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\resources.resfiles
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\pri.resfiles
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\LanguageQualifiers.txt
+C:\Users\tompc\Documents\Visual Studio 2012\Projects\TwilShare\TwilShare\bld\Debug\ProjectArchitectures.txt
