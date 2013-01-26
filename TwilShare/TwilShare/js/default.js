@@ -99,12 +99,13 @@
     }
 
     function sendButtonClick(e) {
-        var accountSid = "ACbb74cfe31aba46d9a358fb94d6a3bcfb";
-        var authKey = "72a7ee6e57367f14d30c674bee069ab4";
+        var accountSid = ""; //Add SID
+        var authKey = ""; //Add AID
+		var numSend = "";// Add your Twilio number
         var resMessage = document.getElementById("bx_message").value;
         var messageString = "Sending message: " + resMessage + " to number: "+bx_number.value;
         document.getElementById("msgResponse").innerText = messageString;
-        var dataStr = "From=+442033224624&To="+ bx_number.value + " &Body=" + resMessage;
+        var dataStr = "From="+ numSend +"&To="+ bx_number.value + " &Body=" + resMessage;
         //var dataStr = "From=+44 7737088306&To=" + bx_number.value + " &Body=" + resMessage;
 
         WinJS.xhr({
@@ -122,7 +123,7 @@
       //message sent!
       document.getElementById("errorContent").innerText = "Message not sent!";
       showConfirmFlyout();
-    //  msgProgrss.innerText = "Message has not sent :(";
+    
   }
 );
 
