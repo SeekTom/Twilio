@@ -5,7 +5,7 @@
 //$mp3 = getRandomMp3();
 function getRandomMp3 (){
 
-$files = glob("YourMp3DirectoryHere/*.mp3");
+$files = glob("mp3/*.mp3");
 $random = array_rand($files);
 $mp3 = $files[$random];
 
