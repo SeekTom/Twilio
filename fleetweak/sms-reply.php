@@ -16,16 +16,16 @@
  
  $trimmed_sms_body = str_replace(' ', '', strtolower($sms_body));
 
-//if //(strpos(strtolower(trim($sms_body,'planes'))) !== false) {
- if  (strpos($trimmed_sms_body,'fleetweek') !== false) {
-  //We got a Fleetweek fan on our hands, lets celebrate
-   $client->account->messages->sendMessage('YourTwilioNumberhere', $from_number, 'Missing FleetWeek? I have something that just might help with that!');
+ if  (strpos($trimmed_sms_body,'YourKeyWordhere') !== false) {
+  //We got a music fan on our hands, lets celebrate
+
+   $client->account->messages->sendMessage('YourTwilioNumberhere', $from_number, 'Missing YourKeyWordhere? I have something that just might help with that!');
    $client->account->calls->create('YourTwilioNumberhere', $from_number, 'files.php', array());
   }
 
 else 
 {
-   $client->account->messages->sendMessage('YourTwilioNumberhere', $from_number, 'Psst the keyword is fleetweek! You sent: ' .$trimmed_sms_body);
+   $client->account->messages->sendMessage('YourTwilioNumberhere', $from_number, 'Psst the keyword is YourKeyWordhere! You sent: ' .$trimmed_sms_body);
    //Wrong keyword, bad user!
 }
 
