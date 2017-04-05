@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lauren &amp; Tom</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/landing-page.css') }}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!--<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+       <!-- <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+           <!-- <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <!-- <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+           <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Venue</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- /.navbar-collapse -->
+      <!--  </div>
+        <!-- /.container -->
+   <!-- </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header_venue">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Colville Hall</h1>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                             <li>
+                                <a href="/contact" class="btn btn-default btn-lg"><i></i> <span class="network-name">Contact</span></a>
+                            </li>
+                             <li>
+                                <a href="/food" class="btn btn-default btn-lg"><i></i> <span class="network-name">Food</span></a>
+                            </li>
+                            <li>
+                                <a href="/gifts" class="btn btn-default btn-lg"><i></i> <span class="network-name">Gifts</span></a>
+                            </li>
+                            <li>
+                                <a href="/" class="btn btn-default btn-lg"><i></i> <span class="network-name">Home</span></a>
+                            </li>
+                           
+                             
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Awesome Hall</h2>
+                    
+                    <p class="lead">
+                        Awesome Hall lies within the remains of an ancient moated site, containing several medieval and post medieval timber framed and thatched barns and other traditional farm structures originally used by a wealthy farmstead. 
+
+                        </p>
+ <p class="lead">
+                         Awesome Hall is steeped in history. It is still possible to see where the original moat runs which pre dates most of the existing farmstead and can be seen as a large dry ditch and shallow depression and a further part is perpetuated as one of the ponds. Roman artefacts were collected by former farmer Robert Judd at Colville Hall in 1846 – these dated from the 1st to the 4th centuries AD - and included coins dating from Emperors Nero to Gratian, burial urns, oil lamps and some unusually designed metal keys. 
+
+                         </p>
+
+                    <p class="lead">
+                    This is a <b>no smoking venue</b> as the site features thatched buildings and so they prefer guests to avoid setting them on fire...
+                    </p>
+                    <p class="lead">Colville Hall</p>
+<ul><li>Chelmsford Road, </li>
+<li>White Roding</li>
+<li>Essex,</li>
+<li>CM6 1RQ, </li>
+</ul>
+<p class="lead">Travel time from Southend is under an hour.
+</p>
+                    
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="static/img/IMG_3378.jpg" alt="">
+
+
+                </div>
+
+                   <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="static/img/directions.png" alt="">
+                </div>
+
+               
+            </div>
+
+        </div>
+    </div>
+
+
+     <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+               <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Hotels &amp; Parking</h2>
+                    <p class="lead">There are a range of hotels near the venue, Awesome Hall has collated a list <a href="" target="_self">on their website</a>.</p>
+                    <p class="lead">There is ample parking at the venue, cars can be left overnight (at owners risk) but cars must be collected by <b>11am on the 4th</b>.</p>
+                </div>
+                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="static/img/IMG_3952.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                   <div class="col-lg-5 col-sm-6">
+             
+                
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Children</h2>
+                    <p class="lead">
+                    Children are welcome at our Wedding, we will make every effort to secure high chairs and entertainment but if you have specific needs (or ideas!) please let us know. 
+                    </p>
+                      <p class="lead">
+                      The main kids meal will be served with the adult starters and will be chicken goujons, chips and peas. Their dessert will be a chocolate brownie and will be served with the adult main course.
+                      </p>
+                </div>
+                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="static/img/fam2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+        <!-- /.container -->
+
+    </div>
+	<a  name="contact"></a>
+    <div class="banner3">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Questions?</h2>
+                    <p>If you have a burning question or logistical quandry, <a href="/contact">let us know!</a></p>
+                </div>
+                <div class="col-lg-6">
+                    
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                     <ul class="list-inline">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="/food">Food</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="/gifts">Gifts</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                    
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='js/jquery.js')}}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+</body>
+
+</html>

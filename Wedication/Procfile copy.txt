@@ -1,0 +1,1 @@
+web: gunicorn -R hello_guest:app --log-file=-
