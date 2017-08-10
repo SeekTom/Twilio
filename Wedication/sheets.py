@@ -2,7 +2,7 @@ import json
 import time
 import gspread
 from oauth2client.client import SignedJwtAssertionCredentials
-from twilio.rest  import TwilioRestClient
+from twilio.rest  import Client
 
 #Message your attendees from a spreadsheet
 
@@ -17,7 +17,7 @@ wks_attendees = wks.get_worksheet(0) #attendees worksheet
 ACCOUNT_SID = os.environ['Twilio_account_per']
 AUTH_TOKEN = os.environ['Twilio_account_token_per'] 
 
-client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN) 
+client = Client(ACCOUNT_SID, AUTH_TOKEN) 
      
 for num in range(2,60):  #to iterate between guests, amend this based on your total
     print "sleeping for 2 seconds"
