@@ -2,7 +2,7 @@ import json
 import time
 import gspread
 from oauth2client.client import SignedJwtAssertionCredentials
-from twilio.rest  import TwilioRestClient
+from twilio.rest  import Client
 
 json_key = json.load(open('')) #add file name for the json created for the spread sheet
 scope = ['https://spreadsheets.google.com/feeds']
@@ -16,7 +16,7 @@ wks_food = wks.get_worksheet(1) #foodresponses worksheet
 ACCOUNT_SID = os.environ['Twilio_account_per']
 AUTH_TOKEN = os.environ['Twilio_account_token_per'] 
 
-client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN) 
+client = Client(ACCOUNT_SID, AUTH_TOKEN) 
      
 for num in range(2,60):  #to iterate between 10 to 60 manual hack to ensure no guests not left out
     
