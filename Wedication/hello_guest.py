@@ -1,5 +1,5 @@
 from flask import Flask,render_template, url_for, request, redirect, make_response
-import twilio.twiml
+from twilio.twiml.messaging_response import MessagingResponse
 import time
 import json
 import gspread
@@ -41,7 +41,7 @@ def internal_error(error):
 @app.route("/messages", methods=['GET', 'POST'])
 def hello_guest():
     
-    resp = twilio.twiml.Response() 
+    resp = MessagingResponse() 
     from_number = request.values.get('From', None)
     from_body = request.values.get('Body', None)
     number = from_number
