@@ -4,7 +4,7 @@ Werkzeug==0.11.4
 gspread==0.3.0
 oauth==1.0.1
 oauth2client==1.5.2
-gunicorn==19.4.5
+gunicorn==19.9.0
 twilio==6.5.0
 httplib2==0.8
 wheel==0.24.0
