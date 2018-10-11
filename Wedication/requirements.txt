@@ -1,5 +1,5 @@
 Flask==1.0.2
-pyOpenSSL==0.13
+pyOpenSSL==17.5.0
 Werkzeug==0.11.4
 gspread==0.3.0
 oauth==1.0.1
